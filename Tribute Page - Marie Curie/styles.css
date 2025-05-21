@@ -1,0 +1,78 @@
+/* Base styling */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Center everything inside main */
+#main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+#title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+/* Image container */
+#img-div {
+  margin: 30px 0;
+}
+
+/* Image itself */
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Image caption */
+#img-caption {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Tribute info section */
+#tribute-info {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Add some space between paragraphs */
+#tribute-info p {
+  margin-bottom: 20px;
+}
+
+/* Tribute link button */
+#tribute-link {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
