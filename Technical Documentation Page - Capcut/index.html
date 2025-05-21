@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CapCut Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>CapCut Documentation</header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#Interface_Overview" class="nav-link">Interface Overview</a>
+    <a href="#Editing_Tools" class="nav-link">Editing Tools</a>
+    <a href="#Transitions_and_Effects" class="nav-link">Transitions and Effects</a>
+    <a href="#Exporting_and_Sharing" class="nav-link">Exporting and Sharing</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>CapCut is a powerful video editing application developed by ByteDance.</p>
+      <p>It's widely used for creating engaging short-form video content, particularly on platforms like TikTok and Instagram.</p>
+      <p>CapCut is available on mobile and desktop, offering both beginner-friendly and professional features.</p>
+      <p>It supports multiple video formats and provides an intuitive editing interface.</p>
+      <p>One of the standout features is its vast library of music, effects, and templates.</p>
+      <code>Download CapCut from the official app store.</code>
+      <p>With CapCut, users can trim, split, and merge clips seamlessly.</p>
+      <p>Its AI-powered features like auto captions and background removal add significant value.</p>
+      <p>CapCut is free to use, with some advanced features available via subscription.</p>
+      <code>capcut.edit(video).export('mp4')</code>
+    </section>
+
+    <section class="main-section" id="Interface_Overview">
+      <header>Interface Overview</header>
+      <p>The CapCut interface is clean and easy to navigate.</p>
+      <p>The main workspace includes a timeline, preview window, and tool panel.</p>
+      <p>Users can drag and drop media onto the timeline for editing.</p>
+      <ul>
+        <li>Timeline at the bottom for arranging clips</li>
+        <li>Preview screen for playback</li>
+        <li>Side panel for effects and media</li>
+        <li>Toolbar with essential editing tools</li>
+        <li>Export button in the top right corner</li>
+      </ul>
+      <code>// Access timeline</code>
+      <code>let timeline = capcut.timeline();</code>
+      <p>The toolbar includes buttons for splitting, deleting, and adjusting clip speed.</p>
+    </section>
+
+    <section class="main-section" id="Editing_Tools">
+      <header>Editing Tools</header>
+      <p>CapCut offers a wide range of editing tools to enhance your videos.</p>
+      <p>Basic tools include cut, split, and reverse.</p>
+      <p>Advanced tools include chroma key, speed ramping, and motion tracking.</p>
+      <p>Text tools allow you to add dynamic and animated captions.</p>
+      <p>You can also add background music or sound effects from CapCut's library.</p>
+      <code>clip.trim(start, end)</code>
+      <code>clip.speed = 2.0</code>
+    </section>
+
+    <section class="main-section" id="Transitions_and_Effects">
+      <header>Transitions and Effects</header>
+      <p>CapCut offers hundreds of built-in transitions and visual effects.</p>
+      <p>Popular transitions include fade, glitch, zoom, and spin.</p>
+      <p>Effects are categorized into video, audio, and AR filters.</p>
+      <p>You can preview and apply effects with a single click.</p>
+      <p>Effects can be adjusted in intensity and duration.</p>
+      <ul>
+        <li>Fade In/Out</li>
+        <li>Zoom Blur</li>
+        <li>Retro VHS</li>
+        <li>Color Glitch</li>
+        <li>Split Screen</li>
+      </ul>
+      <code>clip.addTransition("fade")</code>
+    </section>
+
+    <section class="main-section" id="Exporting_and_Sharing">
+      <header>Exporting and Sharing</header>
+      <p>Once you're done editing, exporting your video is simple.</p>
+      <p>Choose the desired resolution and frame rate.</p>
+      <p>CapCut supports up to 4K exports for high-quality videos.</p>
+      <p>You can share directly to TikTok, YouTube, or save to your device.</p>
+      <p>Export settings include format, compression level, and watermark toggle.</p>
+      <code>project.export({ resolution: "1080p", format: "mp4" })</code>
+    </section>
+  </main>
+</body>
+</html>
